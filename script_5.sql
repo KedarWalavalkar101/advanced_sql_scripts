@@ -1,3 +1,7 @@
+
+-- 2023 wek 41 solution
+
+
 with cte as (
 select nat.student_id
 ,nam.name as student_name

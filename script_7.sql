@@ -1,3 +1,7 @@
+
+-- 2024 Week 9 Solution
+
+
 with filtered as (
 select *
 from (

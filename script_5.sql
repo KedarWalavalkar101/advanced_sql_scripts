@@ -1,5 +1,5 @@
 
--- 2023 wek 41 solution
+-- 2023 week 41 solution
 
 
 with cte as (

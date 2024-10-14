@@ -1,3 +1,7 @@
+
+-- 2024 week 2 solution
+
+
 with formatted_data as (
 select 
 date_format(cast(substring_index(flight_details,'/',1) as date),'%d/%m/%Y') as `date`

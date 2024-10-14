@@ -1,4 +1,7 @@
 
+-- 2023 week 7 solution
+
+
 with exploded_account_info_tbl_cte as (
 SELECT  account_no, account_type,
     trim(SUBSTRING_INDEX(SUBSTRING_INDEX(t.account_holder_id, ',', n.n), ',', -1)) AS account_holder_id,

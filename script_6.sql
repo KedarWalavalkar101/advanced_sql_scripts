@@ -1,3 +1,7 @@
+
+-- 2024 week 10 solution
+
+
 WITH RECURSIVE dates_cte AS (
     SELECT DATE '2023-01-01' AS date
     UNION ALL

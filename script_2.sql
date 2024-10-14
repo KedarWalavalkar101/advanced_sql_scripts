@@ -1,3 +1,7 @@
+
+--  2023 week 10 solution
+
+
 WITH RECURSIVE dates AS (
     SELECT DATE('2023-01-31') AS date
     UNION ALL

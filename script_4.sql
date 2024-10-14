@@ -1,4 +1,7 @@
 
+-- 2023 week 36 solution
+
+
 with cte as (
 select *,
 str_to_date(tournament_dt,'%d/%m/%Y') as dt
